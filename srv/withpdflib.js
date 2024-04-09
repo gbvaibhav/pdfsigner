@@ -11,7 +11,7 @@ async function work() {
     var pdfBuffer = fs.readFileSync(sourcePath);
 
     // certificate.p12 is the certificate that is going to be used to sign
-    var certificatePath = path.join(__dirname, './resources/certificate.p12');
+    var certificatePath = path.join(__dirname, './resources/gbCert.p12');
     var certificateBuffer = fs.readFileSync(certificatePath);
     var signer = new P12Signer(certificateBuffer);
 
