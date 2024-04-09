@@ -1,0 +1,22 @@
+{
+  "name": "pdfsinger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "visible": "node visible.js",
+    "pdflib": "node withpdflib.js"
+  },
+  "author": "vaibhav gb",
+  "license": "ISC",
+  "dependencies": {
+    "@signpdf/placeholder-plain": "^3.2.4",
+    "@signpdf/signer-p12": "^3.2.4",
+    "@signpdf/signpdf": "^3.2.4",
+    "fs":"^0.0.1-security",
+    "path":"^0.12.7",
+    "pdf-lib":"^1.17.1",
+    "@signpdf/placeholder-pdf-lib":"^3.2.4"
+  }
+}
